@@ -28,9 +28,7 @@ app.add_middleware(
 )
 
 
-
-
 @app.get("/")
 async def root():
-    return {"status": "online", "message": "OSINT API приветствует тебя, хакер!"}
+    return {"status": "online", "message": "OSINT API приветствует тебя"}
 
